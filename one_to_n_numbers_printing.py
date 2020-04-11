@@ -1,3 +1,4 @@
+#1 to n numbers
 def print1(n):
     if n==0:
         return
@@ -5,6 +6,7 @@ def print1(n):
     print1(n-1)
 print1(10)
 print("\n")
+#n to 1 numbers(reverse order)
 def print2(n):
     if n==0:
         return
