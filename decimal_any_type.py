@@ -1,3 +1,4 @@
+#binary
 def binary(n):
     if(n==0):
         return;
@@ -5,6 +6,7 @@ def binary(n):
     print(n%2,end="")
 binary(11)
 print("\n")
+#octal
 def octa(n):
     if(n==0):
         return;
@@ -12,6 +14,7 @@ def octa(n):
     print(n%8,end="")
 octa(11)
 print("\n")
+#hexa decimal
 def hexa(n):
     if(n==0):
         return;
